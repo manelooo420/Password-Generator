@@ -28,7 +28,8 @@ root = Tk()
 
 root.title("Password Generator")
 root.resizable(False,False)
-
+icon = PhotoImage(file="61457.png")
+root.iconphoto(True,icon)
 
 
 
